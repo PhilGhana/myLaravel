@@ -1,0 +1,54 @@
+{
+    "function": "doOrderSettle",
+    "requestid": "57e15d17e954df288b2e2b18bd1929d3",
+    "data": [
+      {
+        "mem": "SSS168",
+        "orderid": "27268021",
+        "gtype": "FT",
+        "wtype": "PD",
+        "gid": "990150",
+        "gold": "112.45",
+        "result": "W",
+        "wingold": "19.555055",
+        "wingold_d": "18.57730225",
+        "memo": null,
+        "tworderdate": "2020-10-21",
+        "orderdate": "2020-10-20",
+        "adddate": "2020-10-20 23:27:18",
+        "type": "H0C0",
+        "orderIP": "221.11.61.27",
+        "lastdate": "2020-10-20 23:27:18",
+        "hr": "3",
+        "cr": "0",
+        "betRequestid": "9c8c166df2d6af21c574839cc6f35b71"
+      },
+      {
+        "mem": "Rachel12",
+        "orderid": "27269003",
+        "gtype": "FT",
+        "wtype": "PD",
+        "gid": "990150",
+        "gold": "100",
+        "result": "W",
+        "wingold": "17.39",
+        "wingold_d": "16.5205",
+        "memo": null,
+        "tworderdate": "2020-10-21",
+        "orderdate": "2020-10-20",
+        "adddate": "2020-10-20 23:33:42",
+        "type": "H0C0",
+        "orderIP": "223.104.240.128",
+        "lastdate": "2020-10-20 23:33:42",
+        "hr": "3",
+        "cr": "0",
+        "betRequestid": "132af0cf010d91f6cfdb435481d9a265"
+      }
+    ],
+    "data2": {
+      "gid": "990150",
+      "teamc_score": "0",
+      "teamh_score": "3"
+    },
+    "/provider/MG/": null
+  }

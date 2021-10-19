@@ -1,0 +1,36 @@
+<?php
+namespace App\Validators\Review;
+
+use App\Rules\StringRegex;
+use App\Rules\StringSymbolRegex;
+
+class ReviewMemberDepositValidator extends ReviewBaseValidator
+{
+    public static function checkApprove($data)
+    {
+        (new static($data, [
+            'id'     => 'required|exists:review_member_deposit_bank,id',
+            'remark' => ['nullable', 'string', 'max:50'],
+        ]))->check();
+    }
+
+    public static function checkDisapprove($data)
+    {
+        (new static($data, [
+            'id'     => 'required|exists:review_member_deposit_bank,id',
+            'reason' => ['required', 'string', 'max:50'],
+            'remark' => ['nullable', 'string', 'max:50'],
+        ]))->check();
+    }
+
+    public static function checkGetList($data)
+    {
+        (new static($data, [
+            'status'             => 'nullable|in:all,review,approved,disapproved,transaction-none,transaction-pending,transaction-completed',
+            'transactionAtStart' => 'nullable|date_format:Y-m-d H:i:s',
+            'transactionAtEnd'   => 'nullable|date_format:Y-m-d H:i:s',
+            'page'               => 'nullable|integer|min:1',
+            'perPage'            => 'nullable|integer|min:1',
+        ]))->check();
+    }
+}

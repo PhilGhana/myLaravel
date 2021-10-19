@@ -1,0 +1,32 @@
+{
+    "function": "doOrderSettle",
+    "requestid": "3fd28d6cac0abe393268f75f6a08ab75",
+    "data": [
+      {
+        "mem": "ja5729",
+        "orderid": "27278211",
+        "gtype": "FT",
+        "wtype": "PD",
+        "gid": "990152",
+        "gold": "54000",
+        "result": "W",
+        "wingold": "5324.4",
+        "wingold_d": "5058.18",
+        "memo": null,
+        "tworderdate": "2020-10-21",
+        "orderdate": "2020-10-20",
+        "adddate": "2020-10-21 00:57:39",
+        "type": "H0C1",
+        "orderIP": "121.231.49.24",
+        "lastdate": "2020-10-21 00:57:39",
+        "hr": "1",
+        "cr": "1",
+        "betRequestid": "760714fbc1d9ef8e9a7b62bc9fc8594f"
+      }
+    ],
+    "data2": {
+      "gid": "990152",
+      "teamc_score": "1",
+      "teamh_score": "1"
+    }
+}

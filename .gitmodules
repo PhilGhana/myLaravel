@@ -1,0 +1,6 @@
+[submodule "app/Modules/SMS"]
+	path = app/Modules/SMS
+	url = https://github.com/istar588/SMS.git
+[submodule "app/Modules/api-game-provider"]
+	path = app/Modules/api-game-provider
+	url = https://github.com/istar588/api-game-provider.git
